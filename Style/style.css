@@ -49,6 +49,10 @@ body {
     border: none;
 }
 
+.nav-menu:hover .navigation {
+    display: block;
+}
+
 .user-logo {
     padding: 0 33px;
 }
@@ -64,6 +68,76 @@ body {
     margin-top: -8px;
     margin-left: 20px;
 
+}
+
+.navigation {
+    position: absolute;
+    left: 1530px;
+    width: 230px;
+    height: 764px;
+    background-color: #ffffff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    margin-top: 28px;
+    display: none;
+}
+
+.menu-title {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding: 20px 0 12px 33px;
+}
+
+.menu-link--dec {
+    text-decoration: none;
+}
+
+.menu-link {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-left: 55px;
+}
+
+.menu-link:hover {
+    opacity: 0.5;
+}
+
+.close {
+    position: absolute;
+    border: none;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    content: ' ';
+    height: 12px;
+    width: 2px;
+    background-color: #6F6E6E;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 37px;
+    padding-left: 33px;
+    margin-bottom: 4px;
 }
 
 .brand {
