@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
+    <title>Catalog page</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,64 +84,78 @@
                             </ul>
                         </nav>
                     </div>
-                    <a class="user-logo" href="registration.html"><img src="img/user.svg" alt="logo"></a>
+                    <a class="user-logo" href="#"><img src="img/user.svg" alt="logo"></a>
                     <a class="cart-logo" href="#">
                         <p class="cart-text">5</p><img src="img/buy.svg" alt="logo">
                     </a>
                 </div>
             </div>
         </div>
-
-
     </header>
-
-    <section class="brand">
-        <div class="container brand-container">
-            <h1 class="brand-title">
-                THE BRAND <br>
-                <span class="brand-title--small">OF LUXERIOUS
-                    <span class="brand-title--pink">FASHION</span>
-                </span>
-            </h1>
+    <section class="arrivals">
+        <div class="container arrivals-container">
+            <h1 class="arrivals-title">NEW ARRIVALS </h1>
+            <p class="arrivals-link">HOME / MEN / <span class="arrivals-link--pink">NEW ARRIVALS</span></p>
         </div>
     </section>
-    <section class="offers">
-        <div class="container offers-container">
-            <div class="offer offers-women">
-                <a class="offers-link--women" href="#">
-                    <h2 class="offers-text">30% OFF <br>
-                        <span class="offers-pink">FOR WOMEN</span>
-                    </h2>
-                </a>
+    <section class="men-filter container">
+        <div class="catalog-filter">
+            <div class="filt-accordion">
+                <div>FILTER </div>
+                <div class="filt-log"><img src="img/filter.svg" alt="logo"></div>
             </div>
-            <div class="offer offers-men">
-                <a class="offers-link--men" href="#">
-                    <h2 class="offers-text">HOT DEAL <br>
-                        <span class="offers-pink">FOR MEN</span>
-                    </h2>
-                </a>
-            </div>
-            <div class="offer offers-kids">
-                <a class="offers-link--kids" href="#">
-                    <h2 class="offers-text">NEW ARRIVALS <br>
-                        <span class="offers-pink">FOR KIDS</span>
-                    </h2>
-                </a>
-            </div>
-            <div class="offer offers-acces">
-                <a class="offers-link--acces" href="#">
-                    <h2 class="offers-text">LUXIROUS & TRENDY <br>
-                        <span class="offers-pink">ACCESORIES</span>
-                    </h2>
-                </a>
-            </div>
+            <details class="accordion">
+                <summary class="cat-accord">CATEGORY</summary>
+                <div class="panel">
+                    <p class="panel-p">Accessories</p>
+                    <p class="panel-p">Bags</p>
+                    <p class="panel-p">Denim</p>
+                    <p class="panel-p">Hoodies & Sweatshirts</p>
+                    <p class="panel-p">Jackets & Coats</p>
+                    <p class="panel-p">Polos</p>
+                    <p class="panel-p">Shirts</p>
+                    <p class="panel-p">Shoes</p>
+                    <p class="panel-p">Sweaters & Knits</p>
+                    <p class="panel-p">T-Shirts</p>
+                    <p class="panel-p">Tanks</p>
+                </div>
+            </details>
+            <details class="accordion">
+                <summary class="cat-accord">BRAND</summary>
+                <div class="panel">
+                </div>
+            </details>
+            <details class="accordion">
+                <summary class="cat-accord">DESIGNER</summary>
+                <div class="panel">
+
+                </div>
+            </details>
+        </div>
+        <div class="catalog-sort">
+            <details class="filter-title">
+                <summary class="cat-sort">TRENDING NOW</summary>
+                <p>Polo</p>
+                <p>Shoes</p>
+                <p>Glasses</p>
+            </details>
+            <details class="filter-title">
+                <summary class="cat-sort filter-center">SIZE</summary>
+                <p>XS</p>
+                <p>S</p>
+                <p>M</p>
+                <p>L</p>
+            </details>
+            <details class="filter-title">
+                <summary class="cat-sort">PRICE</summary>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+            </details>
         </div>
     </section>
-    <section class="products">
-        <div class="container products-container">
-            <h3 class="products-title">Fetured Items</h3>
-            <p class="products-desc">Shop for items based on what we featured in this week</p>
-
+    <section class="catalog">
+        <div class="container">
             <div class="products-item">
                 <div class="item item1">
                     <a class="item-link" href="#">
@@ -251,15 +265,77 @@
                         </a>
                     </div>
                 </div>
+                <div class="item item7">
+                    <a class="item-link" href="#">
+                        <img class="item-pic" src="img/4.png" alt="img">
+                        <div class="item-text">
+                            <h4 class="item-text--title">ELLERY X M'O CAPSULE</h4>
+                            <p class="item-text--description">Known for her sculptural takes on traditional tailoring,
+                                Australian arbiter of cool Kym
+                                Ellery teams up with Moda Operandi.</p>
+                            <p class="item-text--price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-box">
+                        <a class="add" href="#">
+                            <img src="img/add cart.svg">
+                            <p class="add-desc">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="item item8">
+                    <a class="item-link" href="#">
+                        <img class="item-pic" src="img/5.png" alt="img">
+                        <div class="item-text">
+                            <h4 class="item-text--title">ELLERY X M'O CAPSULE</h4>
+                            <p class="item-text--description">Known for her sculptural takes on traditional tailoring,
+                                Australian arbiter of cool Kym
+                                Ellery teams up with Moda Operandi.</p>
+                            <p class="item-text--price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-box">
+                        <a class="add" href="#">
+                            <img src="img/add cart.svg">
+                            <p class="add-desc">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="item item9">
+                    <a class="item-link" href="#">
+                        <img class="item-pic" src="img/6.png" alt="img">
+                        <div class="item-text">
+                            <h4 class="item-text--title">ELLERY X M'O CAPSULE</h4>
+                            <p class="item-text--description">Known for her sculptural takes on traditional tailoring,
+                                Australian arbiter of cool Kym
+                                Ellery teams up with Moda Operandi.</p>
+                            <p class="item-text--price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-box">
+                        <a class="add" href="#">
+                            <img src="img/add cart.svg">
+                            <p class="add-desc">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <button class="offers-button">
-                <a class="all-product" href="#">
-                    <p class="button-text">Browse All Product</p>
-                </a>
-            </button>
-        </div>
+            <div class="catalog-pages">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>...</p>
+                <p>20</p>
 
+            </div>
+
+
+        </div>
     </section>
+
     <section class="benefits">
         <div class="container benefits-container">
             <div class="delivery">
@@ -322,10 +398,6 @@
         </div>
 
     </footer>
-
-
-
-
 
 </body>
 

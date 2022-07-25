@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product page</title>
+    <title>Cart page</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/8b1ea9cb76.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -91,145 +92,68 @@
                 </div>
             </div>
         </div>
-
-
     </header>
     <section class="arrivals">
         <div class="container arrivals-container">
-            <h1 class="arrivals-title">NEW ARRIVALS </h1>
-            <p class="arrivals-link">HOME / MEN / <span class="arrivals-link--pink">NEW ARRIVALS</span></p>
+            <h1 class="arrivals-title">SHOPPING CART</h1>
         </div>
     </section>
-    <section class="carousel">
-        <div class="arrows">
-            <div class="arrows-left">
-                <div class="prew"></div>
-            </div>
-            <div class="arrows-right">
-                <div class="next"></div>
-            </div>
-
-        </div>
-        <div class="container">
-            <div class="carousel-box">
-                <ul class="carousel-viewport">
-                    <li class="carousel-slide1">
-                        <img src="img/carusel1.png" alt="foto">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="card-desc--wrapper">
-        <div class="container">
-            <div class="card-desc">
-                <p class="desc-title">WOMEN COLLECTION</p>
-                <hr class="desc-line--up">
-                <p class="desc-brand">MOSCHINO CHEAP AND CHIC</p>
-                <p class="desc-item">Compellingly actualize fully researched processes before proactive outsourcing.
-                    Progressively syndicate
-                    collaborative architectures before cutting-edge services. Completely visualize parallel core
-                    competencies rather than exceptional portals. </p>
-                <p class="desc-price">$561</p>
-                <hr class="desc-line--down">
-                <div class="desc-filter">
-                    <details class="filter-title">
-                        <summary>CHOOSE COLOR</summary>
-                        <p>Black</p>
-                        <p>White</p>
-                        <p>Red</p>
-                    </details>
-                    <details class="filter-title">
-                        <summary class="filter-center">CHOOSE SIZE</summary>
-                        <p>S</p>
-                        <p>M</p>
-                        <p>L</p>
-                    </details>
-                    <details class="filter-title">
-                        <summary>QUANTITY</summary>
-                        <p>1</p>
-                        <p>2</p>
-                        <p>3</p>
-                    </details>
+    <div class="cart-info container">
+        <div class="cart-products">
+            <div class="cart-item">
+                <div class="cart-logo">
+                    <img src="img/cart1.png" alt="logo">
                 </div>
-                <button class="card-add--box">
-                    <a class="card-add" href="#">
-                        <img src="img/add cart pink.svg">
-                        <p class="card-add--desc">Add to Cart</p>
-                    </a>
-                </button>
+                <div class="cart-desc">
+                    <h2 class="cart-item-title">MANGO PEOPLE T-SHIRT</h2>
+                    <p class="cart-p">Price: <span class="cart-pinky">$300</span></p>
+                    <p class="cart-p">Color: Red</p>
+                    <p class="cart-p">Size: Xl </p>
+                    <div class="cart-p">Quantity: <input class="cart-p-quant" type="number" max="10" min="0"></div>
+                </div>
+            </div>
+            <div class="cart-item cart-item2">
+                <div class="cart-logo">
+                    <img src="img/cart2.png" alt="logo">
+                </div>
+                <div class="cart-desc">
+                    <h2 class="cart-item-title">MANGO PEOPLE T-SHIRT</h2>
+                    <p class="cart-p">Price: <span class="cart-pinky">$300</span></p>
+                    <p class="cart-p">Color: Red</p>
+                    <p class="cart-p">Size: Xl </p>
+                    <div class="cart-p">Quantity: <input class="cart-p-quant" type="number" max="10" min="0"></div>
+                </div>
+            </div>
+            <div class="cart-buttons">
+                <button class="clear-button">CLEAR SHOPPING CART</button>
+                <button class="continue-button">CONTINUE SHOPPING</button>
             </div>
         </div>
-    </section>
-    <div class="produscts-box">
-        <div class="container">
-            <div class="products-item">
-                <div class="item item1">
-                    <a class="item-link" href="#">
-                        <img class="item-pic" src="img/1.png" alt="img">
-                        <div class="item-text">
-                            <h4 class="item-text--title">ELLERY X M'O CAPSULE</h4>
-                            <p class="item-text--description">Known for her sculptural takes on traditional tailoring,
-                                Australian arbiter of cool Kym
-                                Ellery teams up with Moda Operandi.</p>
-                            <p class="item-text--price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-box">
-                        <a class="add" href="#">
-                            <img src="img/add cart.svg">
-                            <p class="add-desc">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="item item2">
-                    <a class="item-link" href="#">
-                        <img class="item-pic" src="img/2.png" alt="img">
-                        <div class="item-text">
-                            <h4 class="item-text--title">ELLERY X M'O CAPSULE</h4>
-                            <p class="item-text--description">Known for her sculptural takes on traditional tailoring,
-                                Australian arbiter of cool Kym
-                                Ellery teams up with Moda Operandi.</p>
-                            <p class="item-text--price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-box">
-                        <a class="add" href="#">
-                            <img src="img/add cart.svg">
-                            <p class="add-desc">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="item item3">
-                    <a class="item-link" href="#">
-                        <img class="item-pic" src="img/3.png" alt="img">
-                        <div class="item-text">
-                            <h4 class="item-text--title">ELLERY X M'O CAPSULE</h4>
-                            <p class="item-text--description">Known for her sculptural takes on traditional tailoring,
-                                Australian arbiter of cool Kym
-                                Ellery teams up with Moda Operandi.</p>
-                            <p class="item-text--price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-box">
-                        <a class="add" href="#">
-                            <img src="img/add cart.svg">
-                            <p class="add-desc">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
+        <div class="cart-user-info">
+            <div class="cart-adress">
+                <h2 class="cart-title">SHIPPING ADRESS</h2>
+                <input class="cart-data" type="text" value="Bangladesh">
+                <input class="cart-data" type="text" value="State">
+                <input class="cart-data" type="text" value="Postcode / Zip">
+                <button class="cart-quote">GET A QUOTE</button>
+            </div>
+            <div class="cart-total">
+                <p class="cart-sub">SUB TOTAL $900</p>
+                <p class="cart-grand">GRAND TOTAL <span class="cart-grand-pinky">$900</span></p>
+                <br>
+                <hr class="cart-total-line">
+                <button class="button-checkout">PROCEED TO CHECKOUT</button>
             </div>
         </div>
     </div>
-
     <footer class="footer">
         <div class="footer-up">
             <div class="reviews">
                 <div class="container reviews-container">
                     <div class="review-left">
                         <img src="img/bgcreview.png" alt="img">
-                        <p class="review-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        <p class="review-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                            purus
                             condimentum“
                         </p>
                     </div>
